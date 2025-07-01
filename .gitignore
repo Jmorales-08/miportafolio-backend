@@ -1,0 +1,44 @@
+# Entorno virtual
+venv/
+.env
+*.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de base de datos
+db.sqlite3
+*.sqlite3
+
+# Archivos de migración
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración locales
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos generados por Django
+staticfiles/
+media/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de testing
+coverage/
+htmlcov/
+*.cover
+.pytest_cache/
+
+# Archivos compilados
+*.so
